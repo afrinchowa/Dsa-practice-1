@@ -1,10 +1,4 @@
-Skip to content
-You said:
-what is AI ?make a complete readme file on this like a best note
-ChatGPT said:
-Absolutely, Soya 🌟 Let’s make a complete and professional README.md file on Artificial Intelligence (AI) — formatted just like a top GitHub project or a perfect study note. It’ll be clean, well-structured, and detailed enough for both beginners and developers.
 
-Here’s your ready-to-use content 👇
 
 🤖 Artificial Intelligence (AI)
 📘 Overview
