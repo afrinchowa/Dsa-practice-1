@@ -25,7 +25,7 @@ ExampleGet your own Python Server
 Run this command to create a virtual environment named myfirstproject:
 
 WindowsmacOS/Linux
-C:\Users\Your Name> python -m venv myfirstproject
+
 This will set up a virtual environment, and create a folder named "myfirstproject" with subfolders and files, like this:
 
 Result
