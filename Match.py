@@ -1,26 +1,26 @@
-The match statement is used to perform different actions based on different conditions.
+# The match statement is used to perform different actions based on different conditions.
 
-The Python Match Statement
-Instead of writing many if..else statements, you can use the match statement.
+# The Python Match Statement
+# Instead of writing many if..else statements, you can use the match statement.
 
-The match statement selects one of many code blocks to be executed.
+# The match statement selects one of many code blocks to be executed.
 
-SyntaxGet your own Python Server
-match expression:
-  case x:
-    code block
-  case y:
-    code block
-  case z:
-    code block
-This is how it works:
+# SyntaxGet your own Python Server
+# match expression:
+  # case x:
+    # code block
+  # case y:
+    # code block
+  # case z:
+#     code block
+# This is how it works:
 
-The match expression is evaluated once.
-The value of the expression is compared with the values of each case.
-If there is a match, the associated block of code is executed.
-The example below uses the weekday number to print the weekday name:
+# The match expression is evaluated once.
+# The value of the expression is compared with the values of each case.
+# If there is a match, the associated block of code is executed.
+# The example below uses the weekday number to print the weekday name:
 
-Example
+# Example
 day = 4
 match day:
   case 1:
@@ -37,13 +37,13 @@ match day:
     print("Saturday")
   case 7:
     print("Sunday")
-ADVERTISEMENT
-REMOVE ADS
+# ADVERTISEMENT
+# REMOVE ADS
 
-Default Value
-Use the underscore character _ as the last case value if you want a code block to execute when there are not other matches:
+# Default Value
+# Use the underscore character _ as the last case value if you want a code block to execute when there are not other matches:
 
-Example
+# Example
 day = 4
 match day:
   case 6:
@@ -52,22 +52,22 @@ match day:
     print("Today is Sunday")
   case _:
     print("Looking forward to the Weekend")
-The value _ will always match, so it is important to place it as the last case to make it behave as a default case.
+# The value _ will always match, so it is important to place it as the last case to make it behave as a default case.
 
-Combine Values
-Use the pipe character | as an or operator in the case evaluation to check for more than one value match in one case:
+# Combine Values
+# Use the pipe character | as an or operator in the case evaluation to check for more than one value match in one case:
 
-Example
+# Example
 day = 4
 match day:
   case 1 | 2 | 3 | 4 | 5:
     print("Today is a weekday")
   case 6 | 7:
     print("I love weekends!")
-If Statements as Guards
-You can add if statements in the case evaluation as an extra condition-check:
+# If Statements as Guards
+# You can add if statements in the case evaluation as an extra condition-check:
 
-Example
+# Example
 month = 5
 day = 4
 match day:
