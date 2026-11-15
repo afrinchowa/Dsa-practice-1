@@ -20,7 +20,4 @@ for i in ran:
 ran = range(6)
 for i in ran:
     print(i)  # where is the problem
-# range type data
-ran = range(6)
-for i in ran:
-    print(i)  # where is the problem
+
